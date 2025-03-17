@@ -1,10 +1,10 @@
 {
   "name": "leetcode",
   "version": "1.0.0",
-  "main": "LongestCommonPrefix.js",
+  "main": "Binary.js",
   "scripts": {
-    "dev": "nodemon LongestCommonPrefix.js",
-    "start": "node LongestCommonPrefix.js",
+    "dev": "nodemon Binary.js",
+    "start": "node Binary.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

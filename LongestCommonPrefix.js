@@ -9,16 +9,21 @@
 // Explanation: There is no common prefix among the input strings.
 
 
-strs = ["flower", "flow", "flight"]
+let strs = ["flower", "flow", "flight"];
 
 let result = ""
 
 for (let i = 0; i < strs[0].length; i++) {
+
     let ch = strs[0][i]
+
     for (let j = 0; j < strs.length; j++) {
-        if(ch === strs[j][i]){
-            console.log(ch)
+        if (i >= strs[j].length || strs[j][i] !== ch) {
+            return result
         }
     }
+    result += ch
 }
-console.log(result,'result')
+
+console.log(result, 'result')
+
