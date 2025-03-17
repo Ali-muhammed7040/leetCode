@@ -63,3 +63,10 @@ function missingNumber(array, n) {
 
 const missed = missingNumber([1, 2, 4, 5, 6], 6)
 console.log(missed, 'missed')
+
+
+console.log(6 & 2,'&')
+console.log(6 | 2,'|')
+console.log(6 ^ 2,'^')
+console.log(6 << 2,'<<')
+console.log(6 >> 2,'>>')
