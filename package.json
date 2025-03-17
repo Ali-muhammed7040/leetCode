@@ -1,10 +1,10 @@
 {
   "name": "leetcode",
   "version": "1.0.0",
-  "main": "Binary.js",
+  "main": "Bitwise.js",
   "scripts": {
-    "dev": "nodemon Binary.js",
-    "start": "node Binary.js",
+    "dev": "nodemon Bitwise.js",
+    "start": "node Bitwise.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
